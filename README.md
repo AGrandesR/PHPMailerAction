@@ -6,7 +6,7 @@ This Custom Actions is a implementation of the [PHPMailer](https://github.com/PH
 ## Installation
 First we need to require the package:
 ``` bash
-composer require agrandesr/customactions/phpmailer
+composer require agrandesr/php-mailer-action
 ```
 Next, we need to add to the Router before the run method.
 
