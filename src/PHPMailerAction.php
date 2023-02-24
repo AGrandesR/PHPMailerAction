@@ -43,8 +43,7 @@ class PHPMailerAction extends ActionBuilder {
         if(is_array($this->addAddress)) {
             foreach ($this->addAddress as $address) {
                 if(is_array($address)) $mail->addAddress($address[0],$address[1]);
-                else $mail->addAddress($address); 
-                echo "a".$address; die;
+                else $mail->addAddress($address);
             }
         } elseif(is_string($this->addAddress)) $mail->addAddress($this->addAddress);
         //AddCC
