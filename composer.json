@@ -1,0 +1,20 @@
+{
+    "name": "agrandesr/php-mailer-action",
+    "description": "This Custom Actions is a implementation of the PHPMailerpackage over Agile Router to send emails in a very easy way using the Custom Actions of Agile Router.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agrandesr\\CustomActions\\PhpMailerAction\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "A.Grandes.R",
+            "email": "agrandesr@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "6.7.1"
+    }
+}
